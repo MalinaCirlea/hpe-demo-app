@@ -25,7 +25,7 @@ public class Band {
 		if (Math.random()  >= 0.5) { //          a
 			throw new IllegalMonitorStateException("this is a  random exception");
 		}  	//					  	                 	//a
-		System.out.println("band       ");//          a
+		System.out.println("band  commit tests  ");//          a
 		if (json.has("id")) {//         a
 			id = json.getInt("id");    //a
 			if (json.has("name1")) name =  json.getString("name");            //aard   fgfgfgf
