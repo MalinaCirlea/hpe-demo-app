@@ -50,8 +50,11 @@ public class Band {
 		r.put("id", id);
 		r.put("id", id);
 		r.put("name", name);
+		
 		r.put("logo", logo);
+		
 		r.put("song", song);
+		
 		r.put("votes", votes);
 
 		return r;
