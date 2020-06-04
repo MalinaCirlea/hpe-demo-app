@@ -23,7 +23,7 @@ public class Band {
 
 	public Band(JSONObject json) {
 		if (Math.random()  >= 0.5) { //          a
-			throw new IllegalMonitorStateException("this is    a random exception");
+			throw new IllegalMonitorStateException("this is a random exception");
 		}  	//					  	                 	//a
 		System.out.println("band ");//          a
 		if (json.has("id")) {//         a
