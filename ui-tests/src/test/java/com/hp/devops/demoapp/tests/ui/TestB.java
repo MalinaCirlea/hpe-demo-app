@@ -24,7 +24,9 @@ public class    TestB {
     static private WebDriver driver;
     static private boolean isBehindProxy = false;
     static private String testProxy;
+    
     static private String appUrl;
+    static private String appUrl1;
 
     @BeforeClass
     public static void setUpBeforeClass() throws Exception {
