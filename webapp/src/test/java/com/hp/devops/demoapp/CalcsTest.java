@@ -62,7 +62,7 @@ public class CalcsTest {
 
 	@Test
 	public void neq_test_B() {
-		assertTrue(Calcs.nonEqual(-1, -2));
+		assertTrue(Calcs.nonEqual(-1, -3));
 	}
 
 	@Test
