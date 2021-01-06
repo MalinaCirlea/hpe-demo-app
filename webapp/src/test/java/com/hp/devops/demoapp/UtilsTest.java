@@ -80,7 +80,7 @@ public class UtilsTest {
 	@Test
 public void failTestForCoverageAnalysisA() {
 		String[] result = Utils.nodify("/api/some/more");
-		assertEquals(true, true);
+		assertEquals(true,false);
 	}
 
 	@Test
