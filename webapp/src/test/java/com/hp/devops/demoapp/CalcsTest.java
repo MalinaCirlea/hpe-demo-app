@@ -15,7 +15,7 @@ import static org.junit.Assert.assertTrue;
  */
 public class CalcsTest {
 	////asssggaga
-	//commit tes
+	//commit test user3
 	@Test
 	public void sum_test_A() {
 		Calcs.someTouchedMethod();
