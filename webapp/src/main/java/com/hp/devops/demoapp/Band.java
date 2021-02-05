@@ -20,6 +20,8 @@ public class Band {
 	public int votes = 0;
 	public int votes11 = 101;
 
+	public String song2="";
+
 
 	public Band(JSONObject json) {
 		if (Math.random()  >= 0.5) { //          a
@@ -53,6 +55,7 @@ public class Band {
 		r.put("logo", logo);
 		r.put("song", song);
 		r.put("votes", votes);
+		r.put("song2", song2);
 
 		return r;
 	}
