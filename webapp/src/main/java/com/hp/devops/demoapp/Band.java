@@ -23,6 +23,9 @@ public class Band {
 	public String song2="";
 
 
+	public String song3="";
+
+
 	public Band(JSONObject json) {
 		if (Math.random()  >= 0.5) { //          a
 			throw new IllegalMonitorStateException("this is    a random exception");
@@ -56,6 +59,10 @@ public class Band {
 		r.put("song", song);
 		r.put("votes", votes);
 		r.put("song2", song2);
+
+
+
+		r.put("song3", song3);
 
 		return r;
 	}
